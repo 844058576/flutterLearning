@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
 class FormPage extends StatelessWidget {
-  String title;
-  FormPage({this.title='表单'});
+
+  final String title;
+  FormPage({this.title="表单"});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         child: Text('返回'),
-        onPressed: () {
+        onPressed: (){
           Navigator.of(context).pop();
         },
       ),
@@ -18,7 +19,17 @@ class FormPage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+
           ListTile(
+            title: Text('我是表单页面'),
+          ),
+             ListTile(
+            title: Text('我是表单页面'),
+          ),
+             ListTile(
+            title: Text('我是表单页面'),
+          ),
+             ListTile(
             title: Text('我是表单页面'),
           )
         ],

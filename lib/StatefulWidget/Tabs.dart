@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/Tabs.dart';
+import '../Pages/Tabs.dart';
 
 
 
