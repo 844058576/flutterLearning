@@ -7,7 +7,7 @@ import 'tabs/Setting.dart';
 class Tabs extends StatefulWidget {
   final index;
   Tabs({Key key,this.index=0}) : super(key: key);
- 
+
   _TabsState createState() => _TabsState(this.index);
 }
 
@@ -26,9 +26,9 @@ class _TabsState extends State<Tabs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Flutter Demo"),
-        ),
+        // appBar: AppBar(
+        //   title: Text("Flutter Demo"),
+        // ),
         body: this._pageList[this._currentIndex],
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: this._currentIndex,   //配置对应的索引值选中
