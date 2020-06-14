@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+//引入tabs
+
+import '../Tabs.dart';
+
 class RegisterThirdPage extends StatelessWidget {
   const RegisterThirdPage({Key key}) : super(key: key);
 
@@ -17,7 +21,11 @@ class RegisterThirdPage extends StatelessWidget {
             child: Text('确定'),
             onPressed: (){
               
-                Navigator.of(context).pop();
+                //返回根
+                Navigator.of(context).pushAndRemoveUntil(
+                  new MaterialPageRoute(builder: (context) => new Tabs()),                  
+                   (route) => route == null
+                );
             },
           )
         ],
