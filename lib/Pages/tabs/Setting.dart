@@ -11,9 +11,9 @@ class _SettingPageState extends State<SettingPage> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Column(
+        Column( 
           children: <Widget>[
-            ListTile( 
+            ListTile(
               title: Text("我是一个文本"),
             ),
             ListTile(

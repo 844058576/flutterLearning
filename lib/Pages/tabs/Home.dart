@@ -9,26 +9,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Center( 
       child: Row(       
         mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[ 
-          RaisedButton(
-              child: Text("跳转到appBar"),
-              onPressed: () {
-                //路由跳转
-                Navigator.pushNamed(context, '/appBarDemo');
-               
-          }),
-          SizedBox(width: 10),
-          RaisedButton(
-              child: Text("TabController定义顶部tab切换 "),
-              onPressed: () {
-                //路由跳转
-                Navigator.pushNamed(context, '/tabBarController');
-               
-          })
-        ],
+        children: [
+            RaisedButton(
+              child: Text('点击跳转到按钮演示页面'),
+              onPressed: (){
+                  Navigator.pushNamed(context, '/buttonPage');
+              },
+            )
+        ]
       ),
     );
   }
