@@ -9,12 +9,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Center( 
       child: Column(       
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
             RaisedButton(
-              child: Text('按钮演示页面'), 
+              child: Text('按钮演示页面'),
               onPressed: (){
                   Navigator.pushNamed(context, '/buttonPage');
               },
@@ -33,10 +33,18 @@ class _HomePageState extends State<HomePage> {
                   Navigator.pushNamed(context, '/checkBox');
               },
             ),
+            SizedBox(width: 20),
             RaisedButton(
-              child: Text('RadioDemo'),
+              child: Text('Radio Switch Demo'),
               onPressed: (){
                   Navigator.pushNamed(context, '/radio');
+              },
+            ),
+            SizedBox(width: 20),
+            RaisedButton(
+              child: Text('学员登记系统'),
+              onPressed: (){
+                  Navigator.pushNamed(context, '/form');
               },
             )
         ]

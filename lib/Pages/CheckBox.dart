@@ -11,8 +11,8 @@ class _CheckBoxDemoState extends State<CheckBoxDemo> {
   var flag=true;
   
   @override
-  Widget build(BuildContext context) {
-    return Scaffold( 
+  Widget build(BuildContext context) { 
+    return Scaffold(
         appBar: AppBar(
           title: Text("checkbox"),
         ),
@@ -58,7 +58,8 @@ class _CheckBoxDemoState extends State<CheckBoxDemo> {
                 },
                 title: Text("标题"),
                 subtitle:Text("这是二级标题") ,
-                secondary:Icon(Icons.help)
+                secondary:Icon(Icons.help),
+                selected: this.flag,
             )
 
           ],

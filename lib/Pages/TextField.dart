@@ -11,8 +11,8 @@ class _TextFieldDemoPageState extends State<TextFieldDemoPage> {
   var _username=new TextEditingController();   //初始化的时候给表单赋值
   var _password;
 
-  @override 
-  void initState() {
+  @override
+  void initState() { 
     // TODO: implement initState
     super.initState();
     _username.text='初始值';

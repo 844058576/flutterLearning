@@ -10,17 +10,20 @@ import '../pages/CheckBox.dart';
 
 import '../pages/Radio.dart';
 
+import '../pages/FormDemo.dart';
+
 //配置路由
 final routes={
       '/':(context)=>Tabs(),
       '/buttonPage':(context)=>ButtonDemoPage(),
       '/textField':(context)=>TextFieldDemoPage(),
       '/checkBox':(context)=>CheckBoxDemo(),
-      '/radio':(context)=>RadioDemo(),
+      '/radio':(context)=>RadioDemo(), 
+       '/form':(context)=>FormDemoPage(),
 };
 
 //固定写法
-var onGenerateRoute=(RouteSettings settings) { 
+var onGenerateRoute=(RouteSettings settings) {
       // 统一处理
       final String name = settings.name; 
       final Function pageContentBuilder = routes[name];

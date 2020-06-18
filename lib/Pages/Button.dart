@@ -29,11 +29,11 @@ class ButtonDemoPage extends StatelessWidget {
                     print("普通按钮");
                   },
                 ),
-                SizedBox(width: 5),
+                SizedBox(width: 5), 
                 RaisedButton(
                   child: Text('颜色按钮'),
                   color: Colors.blue,
-                  textColor: Colors.white, 
+                  textColor: Colors.white,
                   onPressed: () {
                     print("有颜色按钮");
                   },
