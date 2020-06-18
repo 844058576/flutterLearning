@@ -9,10 +9,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Center( 
+    return Center(
       child: Row(       
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+        children: [ 
             RaisedButton(
               child: Text('点击跳转到按钮演示页面'),
               onPressed: (){

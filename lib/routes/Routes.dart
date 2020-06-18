@@ -17,14 +17,14 @@ var onGenerateRoute=(RouteSettings settings) {
       if (pageContentBuilder != null) {
         if (settings.arguments != null) {
           final Route route = MaterialPageRoute(
-              builder: (context) => 
+              builder: (context) =>
                   pageContentBuilder(context, arguments: settings.arguments));
           return route;
         }else{
             final Route route = MaterialPageRoute(
               builder: (context) =>
                   pageContentBuilder(context));
-            return route;
+            return route; 
         }
       }
 };

@@ -8,12 +8,12 @@ class CategoryPage extends StatefulWidget {
 
 class _CategoryPageState extends State<CategoryPage> {
   @override
-  Widget build(BuildContext context) { 
+  Widget build(BuildContext context) {
     return DefaultTabController(
       length: 8,
       child: Scaffold(
         appBar: AppBar(
-
+ 
           backgroundColor: Colors.black26,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,

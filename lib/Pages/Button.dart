@@ -11,12 +11,21 @@ class ButtonDemoPage extends StatelessWidget {
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.settings),
-              onPressed: (){ 
+              onPressed: (){
 
               },
             )
           ],
         ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add,color: Colors.black,size: 40,),
+          onPressed: (){
+            print('FloatingActionButton');
+          },
+          backgroundColor: Colors.yellow
+
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -24,7 +33,7 @@ class ButtonDemoPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 RaisedButton(
-                  child: Text('普通按钮'),
+                  child: Text('普通按钮'), 
                   onPressed: () {
                     print("普通按钮");
                   },
@@ -183,7 +192,7 @@ class ButtonDemoPage extends StatelessWidget {
                         print("宽度高度");
                       },
                     ),
-                    MyButton(text: "自定义按钮",height: 60.0,width: 100.0,pressed: (){
+                    MyButton(text: "自定义按钮",height: 60,width: 100,pressed: (){
                       print('自定义按钮');
                     })
                     
@@ -202,8 +211,8 @@ class ButtonDemoPage extends StatelessWidget {
 class MyButton extends StatelessWidget {
   final text;
   final pressed;
-  final width;
-  final height;
+  final double width;
+  final double height;
   const MyButton({this.text='',this.pressed=null,this.width=80,this.height=30}) ;
 
   @override
