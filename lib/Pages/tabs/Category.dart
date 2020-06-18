@@ -13,8 +13,8 @@ class _CategoryPageState extends State<CategoryPage> {
       length: 8,
       child: Scaffold(
         appBar: AppBar(
- 
-          backgroundColor: Colors.black26,
+
+          backgroundColor: Colors.black26, 
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[

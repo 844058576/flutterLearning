@@ -12,9 +12,9 @@ class _SettingPageState extends State<SettingPage> {
     return Column(
       children: <Widget>[
         Column(
-          children: <Widget>[ 
+          children: <Widget>[
             ListTile(
-              title: Text("我是一个文本"),
+              title: Text("我是一个文本"), 
             ),
             ListTile(
               title: Text("我是一个文本"),
