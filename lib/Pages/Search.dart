@@ -9,7 +9,7 @@ class SearchPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(
+      appBar:AppBar( 
         title: Text("搜索页面"),
       ) ,
       body: Text("搜索页面内容区域${arguments != null ? arguments['id'] : '0'}"),

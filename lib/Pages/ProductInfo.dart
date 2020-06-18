@@ -8,11 +8,11 @@ class ProductInfoPage extends StatefulWidget {
 }
 
 class _ProductInfoPageState extends State<ProductInfoPage> {
-  Map arguments;
+  Map arguments; 
   _ProductInfoPageState({this.arguments});
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       appBar: AppBar(
         title: Text('商品详情'),
       ),

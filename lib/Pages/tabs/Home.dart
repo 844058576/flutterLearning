@@ -19,7 +19,15 @@ class _HomePageState extends State<HomePage> {
                 //路由跳转
                 Navigator.pushNamed(context, '/appBarDemo');
                
-              })
+          }),
+          SizedBox(width: 10),
+          RaisedButton(
+              child: Text("TabController定义顶部tab切换 "),
+              onPressed: () {
+                //路由跳转
+                Navigator.pushNamed(context, '/tabBarController');
+               
+          })
         ],
       ),
     );

@@ -9,9 +9,9 @@ class ProductPage extends StatefulWidget {
 class _ProductPageState extends State<ProductPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
 
-      appBar: AppBar(
+      appBar: AppBar( 
         title: Text('商品页面'),
       ),
        body:Column(

@@ -3,13 +3,18 @@ import 'package:flutter/material.dart';
 import '../pages/Tabs.dart';
 import '../pages/AppBarDemo.dart';
 
+import '../pages/TabBarController.dart';
+
+
 //配置路由
 final routes={
       '/':(context)=>Tabs(),
-      '/appBarDemo':(context)=>AppBarDemoPage(),    
+      '/appBarDemo':(context)=>AppBarDemoPage(),   
+      '/tabBarController':(context)=>TabBarControllerPage(),     
+      
 };
 
-//固定写法
+//固定写法 
 var onGenerateRoute=(RouteSettings settings) {
       // 统一处理
       final String name = settings.name; 
