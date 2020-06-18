@@ -13,7 +13,7 @@ class _SettingPageState extends State<SettingPage> {
       children: <Widget>[
         Column(
           children: <Widget>[
-            ListTile(
+            ListTile( 
               title: Text("我是一个文本"),
             ),
             ListTile(

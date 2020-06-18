@@ -10,8 +10,8 @@ class RegisterSecondPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("第二步-验证码")
       ),body:Column(
-        children: <Widget>[
-          SizedBox(height: 40), 
+        children: <Widget>[ 
+          SizedBox(height: 40),
           Text("输入验证码完成注册"),
           SizedBox(height: 40),
           RaisedButton(

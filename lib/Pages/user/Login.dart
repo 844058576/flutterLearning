@@ -7,12 +7,12 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
             
-      appBar: AppBar( 
+      appBar: AppBar(
         title: Text("登录")
       ),
       body: Center(
-        
-        child: Column( 
+         
+        child: Column(
          children: <Widget>[
             SizedBox(height: 40),
             Text('这是一个登录页面,点击登录会执行登录操作'),

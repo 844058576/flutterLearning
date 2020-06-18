@@ -11,7 +11,7 @@ class _CategoryPageState extends State<CategoryPage> {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 8,
-      child: Scaffold(
+      child: Scaffold( 
         appBar: AppBar(
 
           backgroundColor: Colors.black26,

@@ -9,8 +9,8 @@ class TabBarControllerPage extends StatefulWidget {
 class _TabBarControllerPageState extends State<TabBarControllerPage> with SingleTickerProviderStateMixin {
 
   TabController _tabController;
- 
-  @override
+
+  @override 
   void dispose() {   //生命周期函数
     // TODO: implement dispose
     super.dispose();

@@ -10,9 +10,9 @@ class Tabs extends StatefulWidget {
 
   _TabsState createState() => _TabsState(this.index);
 }
- 
-class _TabsState extends State<Tabs> {
 
+class _TabsState extends State<Tabs> {
+ 
   int _currentIndex;
   _TabsState(index){
     this._currentIndex=index;

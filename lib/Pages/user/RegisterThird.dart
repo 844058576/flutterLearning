@@ -10,7 +10,7 @@ class RegisterThirdPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar( 
         title: Text("第三步-完成注册")
       ),body:Column(
         children: <Widget>[

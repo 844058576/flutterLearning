@@ -11,7 +11,7 @@ class RegisterFirstPage extends StatelessWidget {
         title: Text("第一步-输入手机号")
       ),
       body:Column(
-        children: <Widget>[
+        children: <Widget>[ 
           SizedBox(height: 40),
           Text("这是注册的第一步,请输入您的手机号 然后点击下一步"),
           SizedBox(height: 40),

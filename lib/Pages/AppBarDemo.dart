@@ -7,7 +7,7 @@ class AppBarDemoPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length:2 ,
-      child: Scaffold( 
+      child: Scaffold(
           appBar: AppBar(
             title:Text("AppBarDemoPage"), 
             // backgroundColor: Colors.red, 

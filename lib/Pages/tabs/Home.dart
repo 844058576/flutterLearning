@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
     return Center(
       child: Row(       
         mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
+        children: <Widget>[ 
           RaisedButton(
               child: Text("跳转到appBar"),
               onPressed: () {
